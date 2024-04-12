@@ -4,10 +4,11 @@
 from sqlalchemy import create_engine, text
 import os
 
-#print(sqlalchemy.__version__)
-
 #Hide DB CONNECTION DETAILS
 db_connection_string = os.environ['DB_CONNECTION_STRING']
+
+#print(sqlalchemy.__version__)
+
 
 
 def load_Contacts_from_db():
